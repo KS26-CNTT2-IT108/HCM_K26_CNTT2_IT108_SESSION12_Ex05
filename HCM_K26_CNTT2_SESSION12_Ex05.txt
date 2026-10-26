@@ -1,0 +1,33 @@
+SESSION12
+Bài 5 : Chuẩn hóa quy trình báo cáo sự cố an ninh mạng
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+
+Phần 1. Phân tích
+AutoFilter–Google Search của bảng tính
+
+AutoFilter là tính năng trong Excel giúp tìm kiếm và lọc dữ liệu theo điều kiện cụ thể. Có thể xem đây là “Google Search của bảng tính” vì nó giúp tìm nhanh thông tin cần thiết trong danh sách có nhiều dòng dữ liệu.
+
+Nhờ AutoFilter, em tiết kiệm thời gian, dễ quản lý dữ liệu và hạn chế bỏ sót những cảnh báo quan trọng. Tuy nhiên, AutoFilter chỉ giúp lọc dữ liệu có sẵn, không tự phân tích hay xác định mã độc.
+
+Phần 2. Triển khai báo cáo NetGuard
+1. Excel–Tra cứu mã độc
+Sử dụng VLOOKUP kết hợp TRIM để loại bỏ khoảng trắng thừa trước khi tra cứu:
+=VLOOKUP(TRIM(C2),'Cơ sở dữ liệu virus'!$A$2:$D$100,2,FALSE)
+
+Công thức giúp tìm tên mã độc chính xác từ cơ sở dữ liệu virus.
+
+2. Word–Báo cáo sự cố
+- Dùng Heading 1, Heading 2 để phân cấp tiêu đề.
+- Tạo mục lục tại References → Table of Contents.
+- Dùng Navigation Pane để tìm và di chuyển giữa các phần.
+- Chọn Update Table khi nội dung hoặc số trang thay đổi.
+
+3. PowerPoint–Phòng thủ 3 tầng
+- Tầng 1_Phòng ngừa: Tường lửa, phần mềm chống virus.
+- Tầng 2_Phát hiện: Giám sát hệ thống, phát hiện và xử lý cảnh báo.
+- Tầng 3_Phục hồi: Sao lưu và khôi phục dữ liệu.
+Sử dụng font Montserrat hoặc Inter, không dùng Times New Roman.
